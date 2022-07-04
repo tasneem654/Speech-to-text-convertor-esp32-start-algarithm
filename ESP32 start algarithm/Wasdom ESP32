@@ -1,0 +1,12 @@
+1-	Connect the esp32 using the port to the computer
+2-	Download Arduino IDE and open it
+3-	To install the library - from file – preference -and then paste this link to additional board manager url https://dl.espressif.com/dl/pachage_esp32_index.json and click ok
+
+4-	 from tools – board "Arduino uno"- boards manager- type esp32 and click install 
+
+5-	From tools- board "Arduino uno"- esp32 Arduino – WEMOS D1 MINI ESP32
+
+6-	From tools – we have to choose the port COM3
+
+7-	If the port is undefined , we have to install cp 210x universal driver and then update the driver
+8-	From file- examples- basics- blink( just to make sure that the esp is working by the small light) and upload the code 
